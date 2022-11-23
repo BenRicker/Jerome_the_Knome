@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Jerome the Knome"
+run/main_scene="res://Maps/World.tscn"
 config/icon="res://icon.png"
 
 [display]
