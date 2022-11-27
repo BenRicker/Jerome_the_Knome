@@ -1,0 +1,159 @@
+{
+  "frames": {
+    "Jerome (bounce).png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1120,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1120,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 1120,
+        "h": 224
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Jerome Walks to the left.png": {
+      "frame": {
+        "x": 0,
+        "y": 224,
+        "w": 672,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 672,
+        "h": 224
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Jerome Walks.png": {
+      "frame": {
+        "x": 1120,
+        "y": 0,
+        "w": 672,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 672,
+        "h": 224
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Jerome walks down .png": {
+      "frame": {
+        "x": 0,
+        "y": 448,
+        "w": 672,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 672,
+        "h": 224
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Jerome walks up.png": {
+      "frame": {
+        "x": 672,
+        "y": 224,
+        "w": 672,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 672,
+        "h": 224
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Magic Jerome.png": {
+      "frame": {
+        "x": 0,
+        "y": 672,
+        "w": 1792,
+        "h": 448
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1792,
+        "h": 448
+      },
+      "sourceSize": {
+        "w": 1792,
+        "h": 448
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "Jerome_sheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1792,
+      "h": 1120
+    },
+    "scale": 1
+  }
+}

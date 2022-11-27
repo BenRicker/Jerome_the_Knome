@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jerome Walks.png-1fbc8a12de4deb2c5402276782f1cf8f.stex"
+path="res://.import/Jerome_sheet.png-d89d9ac1553e97156e731c4482421277.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Jerome Walks.png"
-dest_files=[ "res://.import/Jerome Walks.png-1fbc8a12de4deb2c5402276782f1cf8f.stex" ]
+source_file="res://Assets/Jerome_sheet.png"
+dest_files=[ "res://.import/Jerome_sheet.png-d89d9ac1553e97156e731c4482421277.stex" ]
 
 [params]
 

@@ -2,7 +2,11 @@ extends Actor
 
 const MAX_SPEED = 100
 const ACCELLERATION = 300
-const FRICTION = 300
+const FRICTION = 250
+
+onready var animationPlayer = $AnimationPlayer
+onready var animationTree = $AnimationTree
+onready var animationState = animationTree.get("parameters/playback")
 
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO
@@ -12,8 +16,12 @@ func _physics_process(delta):
 	input_vector = input_vector.normalized()
 	
 	if input_vector != Vector2.ZERO:
+		animationTree.set("parameters/idle/blend_position", input_vector)
+		animationTree.set("parameters/move/blend_position", input_vector)
+		animationState.travel("move")
 		_velocity = _velocity.move_toward(input_vector * MAX_SPEED, ACCELLERATION * delta)
 	else:
+		animationState.travel("idle")
 		_velocity = _velocity.move_toward(Vector2.ZERO, FRICTION * delta)
-	move_and_collide(_velocity * delta)
+	_velocity = move_and_slide(_velocity)
 

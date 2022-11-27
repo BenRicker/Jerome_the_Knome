@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jerome.png-adf1fe1fcaa035cbf236a81ec46945fd.stex"
+path="res://.import/Mushroom.png-6e80fa7b742c2431750dd4750a5d966f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/jerome.png"
-dest_files=[ "res://.import/jerome.png-adf1fe1fcaa035cbf236a81ec46945fd.stex" ]
+source_file="res://Assets/Mushroom.png"
+dest_files=[ "res://.import/Mushroom.png-6e80fa7b742c2431750dd4750a5d966f.stex" ]
 
 [params]
 
@@ -23,13 +23,13 @@ flags/repeat=0
 flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
-flags/srgb=0
+flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
 process/normal_map_invert_y=false
-stream=0
+stream=false
 size_limit=0
-detect_3d=false
-svg/scale=3.53
+detect_3d=true
+svg/scale=1.0
