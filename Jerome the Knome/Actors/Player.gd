@@ -1,8 +1,8 @@
 extends Actor
 
-const MAX_SPEED = 100
+const MAX_SPEED = 60
 const ACCELLERATION = 300
-const FRICTION = 250
+const FRICTION = 1000
 
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree

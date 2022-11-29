@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tileset_Grass.png-1e333a7c257a1b2f980d2de6ed59ecce.stex"
+path="res://.import/Bed.png-040cdeb09d5d25abfc1adc5d358556af.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Grass/tileset_Grass.png"
-dest_files=[ "res://.import/tileset_Grass.png-1e333a7c257a1b2f980d2de6ed59ecce.stex" ]
+source_file="res://Assets/Bed.png"
+dest_files=[ "res://.import/Bed.png-040cdeb09d5d25abfc1adc5d358556af.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
